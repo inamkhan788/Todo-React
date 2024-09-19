@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #333;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center-container{
+    height: 500px;
+    width: 450px;
+}
+.app-heading{
+    padding: 4px;
+    color: white;
+    font-size: 33px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: bold;
+}
+.input-box-todo{
+    padding: 8px;
+    border-radius: 10px;
+    width: 350px;
+}
+.add-btn{
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.list{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+color: white;
+border: 2px solid white;
+width: 400px;
+margin-top: 25px;
+padding: 3px;
+text-decoration: none;
+list-style: '';
+height: 30px;
+}
+
